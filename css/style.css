@@ -1,0 +1,171 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+header, main, footer {
+  max-width: 1440px;
+  margin : 0 auto;
+  font-size: 15px;
+  font-family: 'Spartan', sans-serif;
+}
+
+header {
+  display : flex;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  width: 1110px;
+}
+
+h1 {
+  font-size : 3rem;
+}
+
+.info {
+  width : 550px;
+}
+
+.rated {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f7f2f8;
+  box-sizing: border-box;
+  width: 445px;
+  height: 55px;
+  border-radius: 10px;
+  margin : 20px;
+  text-align: center;
+}
+
+.rated img {
+  height: 20px;
+  width: 20px;
+  
+}
+
+.rate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 800px;
+  font-weight: bolder;
+}
+
+.guru {
+  align-self: center;
+}
+
+.best {
+  align-self: flex-end;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  width: 1110px;
+}
+
+article {
+  box-sizing: border-box;
+  width: 350px;
+  height : 235px;
+  background-color: #6f2b6d;
+  border-radius: 10px;
+  padding: 30px;
+  color : white;
+  font-size: 15px;
+}
+
+
+article img {
+  border-radius: 50%;
+  height : 40px;
+  width: 40px;
+  float: left;
+}
+
+article div {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height : 40px;
+  margin-bottom: 30px;
+  
+}
+
+article div p {
+  margin :0;
+  padding: 0;
+}
+
+.name {
+  font-weight: bolder;
+}
+
+.name, .job {
+  margin-left : 20px;
+  margin-top : 5px;
+  font-size: 13px;
+}
+
+.irene {
+  align-self: center;
+}
+
+.anne{
+  align-self: end;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 1440px) {
+
+  header {
+    padding-top: 10px;
+    width: 95%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .info {
+    width : auto;
+  }
+
+  .rate {
+    align-items: center;
+    flex-basis: auto;
+  }
+  
+  .best {
+    align-self: center;
+  }
+  
+  .rated {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  main {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    align-items: center;
+  }
+
+  article {
+    margin-top: 20px;
+  }
+  
+  .anne{
+    align-self: center;
+  }
+
+}
